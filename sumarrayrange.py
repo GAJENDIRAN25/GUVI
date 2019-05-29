@@ -1,8 +1,8 @@
-a,b=input().strip()
+a,b=input().split()
 x=int(a)
 y=int(b)
-for i in range(1,x+1):
-  print(i, end=' ')
-  while(i<=y):
-    sum+=i
-  print(sum)
+c=input().split()
+sum=0
+for i in range(0,y):
+    sum+=int(c[i])
+print(sum)
