@@ -1,6 +1,7 @@
-num1=int(input())
-num2=int(input())
-num3=int(input())
+a,b,c=input().split()
+num1=int(a)
+num2=int(b)
+num3=int(c)
 if(num1>num2):
   if(num1>num3):
     print(num1)
