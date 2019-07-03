@@ -1,3 +1,5 @@
 a=int(input())
-x=list(map(int,input().split()))
-print(sorted(x))
+x=map(int,input().split())
+b=sorted(x)
+for i in b:
+  print(i, end=' ')
