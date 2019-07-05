@@ -1,6 +1,6 @@
 a=input()
 try:
-  b=int(a)
+  float(a)
   print('Yes')
-catch:
+except:
   print('No')
