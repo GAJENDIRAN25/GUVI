@@ -1,5 +1,5 @@
 a=int(input())
-b=list(map(int,input().split()))
+b=list(map(str,input().split()))
 c=sorted(b)
 c.reverse()
 d="".join(c)
