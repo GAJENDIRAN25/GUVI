@@ -6,8 +6,11 @@ for i in c:
   for j in d:
     if i == j:
       li.append(i)
-if(c==li):
-  print('NO')
+if(len(c)==len(d)):
+  if(li==c):
+    print('YES')
+  else:
+    print('NO')
 elif(len(li)==0):
   print('NO')
 else:
