@@ -6,7 +6,7 @@ for i in c:
   for j in d:
     if i == j:
       li.append(i)
-if(c==d):
+if(c==li):
   print('NO')
 elif(len(li)==0):
   print('NO')
