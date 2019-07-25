@@ -7,5 +7,8 @@ d = []
 for i in c1:
   if(len(i) == i.count(i[0])):
     d.append(i[0])
-e1 = len(b) - len(d)
+if(len(a) > len(b)):
+  e1 = len(a) - len(d)
+else:
+  e1 = len(b) - len(d)
 print(e1)
